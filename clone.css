@@ -1,0 +1,288 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: white;
+}
+/* navbar css start */
+    .nav-bar
+    {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        /* position: fixed; */
+    }
+
+    .nav-bar img
+    {
+        height: 40px;
+        width: 150px;
+    }
+
+    .nav-elements
+    {
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    
+    .nav-elements ul 
+    {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-elements ul li
+    {
+        padding: 5px 10px;
+        margin: 0px 7px;
+    }
+
+    .menu_bar
+    {
+        display: none;
+    }
+
+    .menu_bar .bar
+    {
+        height: 2px;
+        width: 40px;
+        background-color: rgb(28, 27, 28);
+    }
+    .menu_bar .mid
+    {
+        margin: 10px 0;
+        background-color: rgb(131, 136, 136);
+    }
+
+    .nav-bar .searchbar
+    {
+        padding-left: 5px;
+        background-color:  rgb(225, 230, 230);
+        border-radius: 5px 5px 5px 5px;
+        border: 2px solid #ccc;
+    }
+
+    search-container {
+        display: flex;
+    }
+    
+    #searchInput {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        width: 400px;
+        background-color: rgb(225, 230, 230);
+    }
+/* navbar css end */
+
+.space
+{
+    height: 10px;
+    background-color: rgb(235, 237, 237);
+}
+
+/* image section starts */
+.image_box
+{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    padding: 30px 40px 40px 30px;
+    border: block;
+    background-color: white;
+    height: 70px;
+    width: auto;
+}
+
+.image_box .img
+{
+    text-align: center;
+    font-weight: 550;
+}
+
+.image_box img
+{
+    height: 60px;
+    width: 60px;
+}
+
+.image_box a
+{
+    color: white;
+}
+/* image section ends */
+
+/* carousel section starts */
+.carousel_section img
+{
+    width: 1220px;
+}
+/* carousel section ends */
+
+/* frame section starts */
+.frame_section img
+{
+    height: 180px;
+    width: 300px;
+}
+/* frame section ends */
+
+/* top-deal section starts */
+.deal_section img
+{
+    height: 190px;
+    width: 170px;
+}
+
+.deal_section .image
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.deal_section .container
+{
+    background-color: white;
+    padding: 10px;
+}
+
+.deal_section .container h3
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.deal_section .pic
+{
+    border: solid rgb(217, 214, 214);
+    border-width: 1px;
+    height: 230px;
+    width: 190px;
+    padding: 20px;
+}
+
+.deal_section .pic p
+{
+    font-weight: 550;
+}
+/* top-deal section ends */
+
+/* banner section starts */
+.banners_section .images
+{
+    display: flex;
+}
+
+.banners_section .images1
+{
+    display: flex;
+}
+
+.banners_section img
+{
+    height: 200px;
+    width: 500px;
+    padding: 10px 5px;
+}
+/* banner section ends */
+
+/* end section starts */
+
+.end
+{
+    background-color: #212121
+;
+    font-size: 13px;
+    color: white;
+}
+
+.end p
+{
+    color: #878787;
+    padding-left: 40px;
+}
+
+.end ul
+{
+    list-style: none;
+    padding-left: 40px;
+}
+
+.end .end_1
+{
+    display: flex;
+    padding-top: 30px ;
+    margin-bottom: 10px;
+}
+
+.end .end_1 .subend1
+{
+    display: flex;
+    margin-right: 20px;
+}
+
+.end .end_1 .subend2
+{
+    display: flex;
+}
+
+.end ul
+{
+    padding-top: 15px;
+}
+
+.end .end_1  li
+{
+    padding-bottom: 10px;
+}
+.end section
+{
+    color:  #212121;
+}
+
+.end .icons
+{
+    display: flex;
+}
+
+.end .line
+{
+    background-color: white;
+    height: 250px;
+    width: 1px;
+    opacity: 0.2;
+}
+
+.end hr
+{
+    opacity: 0.2;
+}
+
+
+/* end2 section starts */
+.end_2 ul 
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.end_2 .fa-solid
+{
+    color: #FAD534;
+    margin-right: 5px;
+}
+/* end2 section ends */
+
+/* end section ends */
